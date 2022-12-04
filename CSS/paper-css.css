@@ -1,0 +1,112 @@
+body
+{
+	font-family: calibri;
+	padding:0px;
+	margin:0px;
+}
+.heading
+{
+	
+	top:1px;
+	padding: 30px;
+	text-align: left;
+	width:100%;
+	background: url("https://media.giphy.com/media/l4pT1SAXZr9w2p8nS/giphy.gif");
+	background-repeat: repeat-x;
+	background-size: 200px;
+	font-family: calibri;
+	background-color: #651FFF;
+	color:white;
+	font-size: 30px;
+	overflow: inherit;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.menu a {
+    font-family:monospace;
+    background-color: #eee;
+    border-radius:100px;
+    color: black;
+    display: block;
+    padding: 20px;
+    width: 300px;
+	text-decoration: none;
+	font-size: 20px;
+	margin:5px;
+	text-align:center;
+	transition-duration: 0.2s;
+}
+
+.menu a:hover {
+    background-color: #304FFE;
+    color:white;
+    border-radius:5px;
+    box-shadow: 0px 0px 20px 15px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+    
+}
+
+.menu a.active {
+    background-color: black;
+    color: white;
+    opacity:0.7;
+   	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.content
+{	
+	cursor: default;
+	text-align: center;
+	background-color:#FAFAFA;
+	padding: 20px 40px;
+	width: 500px;
+	border-radius: 8px;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.10),0 5px 5px 0 rgba(0,0,0,0.19);
+	border-radius: 30px;
+	border-top: 10px double gray;
+	border-right:10px double #3D5AFE;
+	border-left:10px double #3D5AFE;
+	margin:10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+}
+
+td a
+{
+	color: #651FFF;
+
+}
+td table
+{
+	height: 150px;
+}
+table table
+{
+	border-collapse: collapse;
+}
+table table td
+{
+	text-align: center;
+	padding: 5px;
+}
+table
+{
+	width: 100%;
+}
+.corner
+{
+	border:2px solid gray;
+	margin-bottom: 5px;
+	background-color: transparent;
+	font-size: 18px;
+	text-align: center;
+	width: 240px;
+	border-radius: 100px;
+	transition-duration: 0.2s;
+}
+.corner:hover
+{
+	width: 250px;
+	border-radius: 20%;
+	background-color: gray;
+	color:white;
+	text-shadow: 0px 0px 10px black;
+	cursor: pointer;
+}

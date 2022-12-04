@@ -1,0 +1,12 @@
+<script>
+			var counter = 0;
+			var index = document.getElementById('time_table');
+			var bunch = ["100px","25px"]
+         function move() {
+             if(counter == 2)
+             	counter = 0;
+             index.style.borderRadius = bunch[counter];
+             counter++;
+          }
+         setInterval(move, 1500);
+		</script>

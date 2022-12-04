@@ -1,0 +1,64 @@
+header
+{
+	background-color: black;
+	opacity: 0.8;
+	color:white;
+	height: 140px;
+	border-radius: 10px 15%  10px 20%;
+	box-shadow: 0px 30px 50px 10px gray;
+}
+header .title
+{
+	padding: 25px;
+	font-size: 40px;
+	margin-left: 40px;
+}
+.cnote
+{
+	position: relative;
+	margin-top: 20px;
+	padding: 20px;
+	width: 100px;
+	border-radius: 100px;
+	text-align: center;
+	left: 20px;
+	background-color: blue;
+	color:white;
+	border-bottom: 3px solid black;
+	transition-duration: 0.4s;
+}
+.cnote:hover
+{
+	border:none;
+	box-shadow: 0px 0px 50px 200px blue;
+	
+}
+.navigate a
+{
+	display: inline-block;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-size: 15px;
+	border-radius: 50px;
+	transition-duration: 0.2s;
+	border-bottom: 4px solid black
+}
+.navigate a:hover
+{
+	color: white;
+	background-color: black;
+	border: 4px groove white;
+	border-bottom: 4px solid black;
+}
+a.active
+{
+	color:white;
+	background-color: black;
+	border: 4px groove	 white;
+	border-bottom: 4px solid black;
+	
+}
+
+

@@ -1,0 +1,39 @@
+.content
+    {
+        background-color:#212121;
+        color:white;
+        padding:20px;
+        width: 60%;
+        overflow: auto;
+        resize: vertical;
+        box-shadow: 0px 20px 15px 0px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);  
+        border-radius: 10px;
+}
+.material .label
+    {
+        color:white;
+        position: relative;
+        text-align: left;
+        left:10px;
+        font-weight: normal;
+    }
+li
+{
+  background: #3399ff;
+  padding: 20px;
+  text-align: left;
+  text-shadow: 0px 5px 10px black;
+  border-radius: 10px;
+  border-top: 5px solid white;
+  border-left:15px solid #cce5ff;
+}
+a
+{
+  text-decoration: none;
+  color: white
+}
+
+body
+{
+  background: linear-gradient(to bottom, #3c3c3c 600px, white);
+}

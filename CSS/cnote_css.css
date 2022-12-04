@@ -1,0 +1,134 @@
+
+body
+{
+	margin: 0px;	
+	padding: 0px;
+}
+.heading
+{
+	padding:35px;
+	text-align: center;
+	color:white;
+	width:100%;
+	font-size: 40px;
+	background: url("https://media.giphy.com/media/l4pT1SAXZr9w2p8nS/giphy.gif");
+	background-repeat: repeat-x;
+	background-size: 200px;
+	font-family: calibri;
+	background-color:#651FFF;	
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);	
+}
+.menu a {
+    background-color: #eee;
+    border-radius:100px;
+    color: black;
+    display: block;
+    padding: 20px;
+    width: 300px;
+	text-decoration: none;
+	font-size: 20px;
+	margin:5px;
+	text-align:center;
+	font-family:monospace;
+	transition-duration: 0.2s;
+}
+.menu a:hover {
+    background-color: black;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+ }
+
+.menu a.active {
+    
+    background-color: #304FFE;
+    color: white;
+    box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.content
+{
+	border:5px solid black;
+	transition-duration: 0.4s;
+	background-color:#FAFAFA;
+	padding: 40px 20px;
+	width: 100%;
+	position:relative;
+	left:10px;
+	border-radius: 10% 50px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10),0 5px 5px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.5s;
+}
+#time_table
+{
+	border-radius:25px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.content div
+{
+	height: 0px;
+	line-height: 4;
+	word-spacing: 100px;
+	transition-duration: 1s;
+	font-size:15px;
+	font-family: monospace;
+	background-color:#212121;
+	color:white;
+	border-radius: 10px;
+	padding: 10px;
+	transition-duration: 1s;
+}
+
+.for_fun
+{
+	cursor:pointer;
+	border-radius: 50px;
+	background-color: #eeeeee;
+	width:150px;
+	padding: 5px 20px;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: left;
+	transition-duration: 0.2s;
+}
+table
+{
+	font-family: calibri;
+}
+td,th
+{
+	padding: 5px;
+	width: 10%;
+	border:3px solid gray;
+	text-align: center;
+}
+.lab
+{
+
+	width:25%;
+
+}
+.tab_time th
+{
+	border-radius: 6px;
+	font-size: 20px;
+	border:solid #F50057 4px;
+}
+th:first-of-type
+{
+	
+	width: 10%;
+	font-size: 20px;
+	border:solid #304FFE 4px;
+}
+table
+{
+	
+	border-collapse: collapse;
+}
+td p
+{
+	margin: 5px;
+}

@@ -1,0 +1,233 @@
+<html>
+<head>
+	<meta name="viewport" content="intial-scale=1.0">
+	<title>Orbit</title>
+	<link rel="stylesheet" type="text/css" href="CSS/orbit-css.css">
+	<link rel="stylesheet" type="text/css" href="CSS/cnote_css.css">
+	<script type="text/javascript" src="JS/cjs.js"></script>
+</head>
+<body>
+<header>
+
+<div class="title"><strong style="font-size: 50px;text-decoration: underline;">O</strong>rbit</div>
+<div class="navigate" align="center">
+	<a href="#" class="active">Home</a>
+	<a href="O-Paper.html">Previous Year Paper</a>
+	<a href="O-smaterial.html">Study Material</a>
+	<a href="O-DS.html">DS_Active Learning</a>
+	<a href="O-Whats-New.html">Whats New</a>
+</div>
+<div id= "wish" style="position: absolute;top: 40px; right:50%;border-bottom:3px solid #7986CB;padding:0px 40px;border-radius: 20%">top</div>
+<a href="#" style="text-decoration: none"><div class="cnote">Back to C-note</div></a>
+</header>
+<script>
+	var date = new Date();
+	var time = date.getHours();
+	var list = ["Good Mornig Sunshine","Good Afternoon","Good Evening","Good Night"];
+	var turn;
+
+		if(time >= 21 || time <=4 )
+		{
+			turn = 3;
+		}
+		else if(time >=4 && time<12 )
+		{
+			turn = 0;
+		}
+		else if(time>=12 && time<=16)
+		{
+			turn = 1;
+		}
+		else if(time>=17 && time<=21)
+		{
+			turn = 2;
+		}
+		document.getElementById('wish').innerHTML = list[turn];
+</script>
+<br><br><br>
+<center>
+	<div class="content" style="border:5px solid black;margin-top: 150px" id="time_table">
+<p style="font-size: 25px;font-family: monospace; border-bottom: 2px dotted;padding: 10px 0px;">Time-Table <img src=""></p>
+<br>
+<center>
+	<table border="1"> <!--class table-->
+		<tr class="tab">
+			<th>Day / Time</th>
+			<th>9:00 T 10:00</th>
+			<th>10:00 T 11:00</th>
+			<th>11:00 T 12:00</th>
+			<th>12:00 T 1:00</th>
+			<th>1 T 1:30</th>
+			<th>1:30 to 3:30</th>
+		</tr>
+		<tr>
+			<th></th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="6" style="opacity: 0.6">
+				<p>R</p>
+				<p>E</p>
+				<p>C</p>
+				<p>E</p>
+				<p>S</p>
+				<p>S</p>
+			</td>
+			<td></td>
+		</tr>
+		<tr id="1">
+			<th>Monday</th>
+			<td>AEM</td>
+			<td>DS</td>
+			<td>DE</td>
+			<td>AEM</td>
+			
+			<td class="lab">
+				<p>A! - DS(605-B)</p>
+				<p>A2 - DBMS(605-B)</p>
+				<p>A3 - DE(704-C)</p>
+			</td>
+		</tr>
+		<tr id="2">
+			<th>Tuesday</th>
+			<td>DBMS</td>
+			<td>AEM</td>
+			<td>EEM</td>
+			<td>DE</td>
+			<td class="lab">
+				<p>A! - DE(704-C)</p>
+				<p>A2 - DS(605-B)</p>
+				<p>A3 - DBMS(605-B)</p>
+			</td>
+		</tr>
+		<tr id="3">
+			<th>Wednesday</th>
+			<td>DS</td>
+			<td>EEM</td>
+			<td>DBMS</td>
+			<td>DE</td>
+			<td class="lab">
+				<p>A! - DBMS(605 -B)</p>
+				<p>A2 - DBMS(605-B)</p>
+				<p>A3 - DS(605-B)</p>
+			</td>
+		</tr>
+		<tr id="4">
+			<th>Thursday</th>
+			<td>EEM</td>
+			<td>AEM</td>
+			<td>DBMS</td>
+			<td>DS</td>
+			<td char="lab">
+				<p>A! - DS(605-B)</p>
+				<p>A2 - DE(704-C)</p>
+				<p>A3 - DBMS(605-B)</p>
+			</td>
+		</tr>
+		<tr id="5">
+			<th>Friday</th>
+			<td>DE</td>
+			<td>EEM</td>
+			<td>DS</td>
+			<td>DBMS</td>
+			<td class="lab">
+				<p>A! - DBMS(605-B)</p>
+				<p>A2 - DS(605-B)</p>
+				<p>A3 - DS(605-B)</p>
+			</td>
+		</tr>
+		<tr id="6">
+			<th>Saturday</th>
+			<td class="lab" colspan="3">
+				<p>DE -1A (605-C)</p>
+			</td>
+				
+		</tr>
+
+		
+	</table>
+</center>
+
+</div>
+</centr>
+<br>
+<br>
+
+<div style="padding: 1px;background-color: #5300e8"></div>
+<br>
+
+<br>
+							<!--Fun Part-->
+	
+	<center><p id="clk" onclick="fun()" class="for_fun">Just for <strong>FUN</strong>
+		<span id="here" style="font-size: 15px;padding: 0px 0px 0px 20px" >Click here</span>
+	</p>
+	</center>
+			
+<center>
+<div class="content" style="border: none;border: 10px solid #673AB7;border-bottom: none;width: 550px;">
+
+	<h2 id ="dis" style="display: none;font-family: comic sans ms;">Poem</h2>
+	<div id="poem">
+	<p>	Here's to the crazy ones,</p>
+	<p>The misfits, the rebells, the troublemakers.</p>
+	<p>The round pegs in the square holes.</p>
+	<p>The ones who see things differently.</p>
+	<p>They are not fond of rules.</p>
+	<p>And they have no respect for status quo</p>
+	<p>You can quote them, disagree with them,</p>
+	<p>Glorify or vilify them.</p>
+	<p>About the only thing you can't do...</p>
+	<p>... is ignore them.</p>
+	<p>Because they change things,they push the human race forward.</p>
+	<p>While some may see them as the crazy ones</p>
+	<p>We see GENIUS</p>
+	<p>Becasue THE PEOPLE WHO ARE CRAZY ENOUGH,</p>
+	<p>TO THINK THAT THEY CAN CHANGE THE WORLD</p>
+	<p>ARE THE ONES WHO DO.</p>
+	<br>
+	<p>- Steve Jobs</p>
+	</div>
+
+
+	</div>
+
+</center>
+</center>
+<br>
+<br>
+<br>
+<br>	
+<footer style="background-color: #EEEEEE;height: 50px;width: 100%; position:fixed;bottom: 0;right:0;">
+    <div style="position: relative;text-align: center;padding: 15px"
+    ><i>:- Ravi Agheda</i>
+    </div></footer>
+
+</body>
+<script type="text/javascript" src="automatic_day.js"></script>
+	<script>
+									/*Day reminder*/
+		var date = new Date();
+		var day = date.getDay();
+		
+		var daycolor = ['' , '#75e900' ,'#5c00d2', '#FF5722', '#6D4C41', '#00796B', 'black'];
+		
+		if(day == 0)
+		{
+
+			document.getElementById('sunday').style.display ="block";
+			document.getElementById('sunday').innerHTML = "[ Happy Sunday ]	";
+			
+		}
+		else
+		{
+		document.getElementById(day).style.border= "8px solid";
+		document.getElementById(day).style.borderColor = daycolor[day];
+		document.getElementById(day).style.borderRight = "none";
+		document.getElementById(day).style.borderLeft = "none";
+		document.getElementById('recess').style.borderBottom = "none";
+		}
+	</script>
+</body>
+</html>

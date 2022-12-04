@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>O-smaterial</title>
+	<meta name="viewport" content="intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/smaterial-css.css">
+	<link rel="stylesheet" type="text/css" href="CSS/orbit-css.css">
+</head>
+<body>
+	<header>
+
+<div class="title"><strong style="font-size: 50px;text-decoration: underline;">O</strong>rbit</div>
+<div class="navigate" align="center">
+	<a href="Orbit.html">Home</a>
+	<a href="O-Paper.html">Previous Year Paper</a>
+	<a href="#" class="active">Study Material</a>
+	<a href="O-DS.html">DS_Active Learning</a>
+	<a href="O-Whats-New.html">Whats New</a>
+</div>
+<div id= "wish" style="position: absolute;top: 40px; right:50%">top</div>
+</header>
+<script>
+	var date = new Date();
+	var time = date.getHours();
+	var list = ["Good Mornig Sunshine","Good Afternoon","Good Evening","Good Night"];
+	var turn;
+
+		if(time >= 21 || time <=4 )
+		{
+			turn = 3;
+		}
+		else if(time >=4 && time<12 )
+		{
+			turn = 0;
+		}
+		else if(time>=12 && time<=16)
+		{
+			turn = 1;
+		}
+		else if(time>=17 && time<=21)
+		{
+			turn = 2;
+		}
+		document.getElementById('wish').innerHTML = list[turn];
+</script>
+<br><br><br><br>
+<br><br><br><br><br>
+    <div align="right">
+           <div class="content material">
+               <h1 class="label" style="color:white;text-shadow: 0px 2px 20px white; text-align: center;color:white">PDF<span style="font-size: 15px;text-shadow: none;font-family: monospace;">(From Darshan Institute)</span></h1>
+               <br>
+               <br>
+               <div>
+                <ul>
+                  <li><a style="text-decoration: none" href="http://www.darshan.ac.in/Upload/DIET/Documents/CE/2130702_DS_2015_24112015_025019AM.pdf">Data Structre(DS)</a></li>
+                  <br>
+                  <li><a href="http://www.darshan.ac.in/Upload/DIET/Documents/CE/EEM-Study-Material_24102017_065649AM.pdf">Engineering Economics and Management(EEM)</a></li>
+                  <br>
+                  <li><a href="http://www.darshan.ac.in/Upload/DIET/Documents/CE/2130703_DBMS_2015_24112015_025045AM.pdf">Database Management Systems(DBMS)</a></li>
+                  <br>
+                  <li><a href="http://www.darshan.ac.in/Upload/DIET/Documents/CE/2131004-DE-GTU-Study-Material_04062018_033138AM.pdf">Digital Electronics(DE)</a></li>
+                  <br>
+                </ul>
+               </div>
+           </div>
+    </div>
+
+</body>
+</html>
